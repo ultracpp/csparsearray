@@ -56,13 +56,16 @@ Sparse arrays are useful when you have a large range of indices but only a small
 To use this library, include `csparsearray.h` and link against the compiled library. Here's a brief example of how to create and manipulate a sparse array:
 
 ```c
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 #include "csparsearray.h"
 
 int main() {
   int capacity = 100;
-	int rand_max = capacity * 2;
+  int rand_max = capacity * 2;
 
-	srand((unsigned)time(NULL));
+  srand((unsigned)time(NULL));
 
   c_sparse_array carr;
   c_sparse_array_init(&carr, -1, 0);
