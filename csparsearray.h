@@ -1,5 +1,5 @@
 /*
- * csparsearray - Skip List Implementation in C Language
+ * csparsearray - Sparse Array Implementation in C Language
  * Copyright (c) 2024 Eungsuk Jeon
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
